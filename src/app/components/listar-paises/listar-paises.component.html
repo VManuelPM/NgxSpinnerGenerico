@@ -1,0 +1,17 @@
+<div class="caontainer">
+    <table class="table">
+        <thead>
+            <th>Nombre</th>
+            <th>Regiòn</th>
+            <th>Alpha Code</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pais of listaPaises"> 
+                <td>{{pais.name}}</td>
+                <td>{{pais.region}}</td>
+                <td>{{pais.alpha3Code}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <ngx-spinner></ngx-spinner>
+</div>
